@@ -26,3 +26,7 @@ Metrics/AbcSize:
 Style/Lambda:
   EnforcedStyle: literal
 
+Metrics/BlockLength:
+  Max: 25
+  Exclude:
+    - 'spec/**/*.rb'
